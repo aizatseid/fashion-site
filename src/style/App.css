@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  font-family:"Poppins",
+  Arial,
+  Helvetica,
+  sans-serif;
+  background-color: #fff;
+  color:#22262A;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.container {
+  max-width: 1180px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+header {
+  font-size: 18px;
+  background-color: #fff;
+  height: 83px;
+  border-top-right-radius: 60px;
+  border-top-left-radius: 60px;
+}
+
+.header {
+  height: 83px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav__list-item {
+  display: inline-block;
+  margin: 0 14px;
+}
+
+.menu__ic {
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  margin: 0 20px;
+}
+
+.hero__img  {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.hero__text {
+  position: absolute;
+  right: 231px;
+  bottom: 100px;
+}
+
+.upper__text {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-weight: 18px;
+  line-height: 27px;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 120px;
+  text-transform: uppercase;
+}
+
+.undertitle {
+    font-weight: 500;
+    font-weight: 18px;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+
+.btn {
+  padding: 4px 24px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #22262A;
+  text-transform: uppercase;
+  margin-right: 34px;
+
+}
+.cards__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.cards__p {
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 54px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 11px;
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__p {
+  font-weight: 300;
+}
+
+.card__title {
+  font-weight: 600;
+
+}
+
+.old__price {
+  line-height: 1px;
+  text-decoration: line-through;
+  margin-right: 15px;
+}
+
+.card__price {
+  line-height: 1px;
+  color: #CF2929;
+}
+
+.form__page {
+  background-color: rgb(240, 219, 219);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 50px;
+  font-size: 20px;
+}
+
+input{
+  display: inline-block;
+  padding: 5 10px;
+  margin: 8px;
+}
+
+
+
