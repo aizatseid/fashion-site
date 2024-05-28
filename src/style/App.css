@@ -163,5 +163,54 @@ input{
   margin: 8px;
 }
 
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  border: 2px solid #E7F5F8;
+  width: 268px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.img__wrap {
+    height: 371px;
+    width: 268px;
+}
+
+.box__title {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.box__descr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 120px;
+
+}
+
+.box__price {
+    line-height: 1px;
+    color: #CF2929;
+    font-size: 15px;
+    line-height: 1px;
+
+}
+
+.img__wrap img {
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
+  text-align: center;
+
+}
+
 
 

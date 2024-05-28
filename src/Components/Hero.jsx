@@ -5,7 +5,7 @@ import { Button } from "./Button";
 export const Hero = () => {
   return (
     <div className="hero">
-      <div className="img__wrap">
+      <div>
         <img src={heroImg} alt="" className="hero__img" />
       </div>
       <div className="hero__text">
